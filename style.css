@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: brown;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+         body{
+             background-color:blanchedalmond ;
+             
+         }
+         h1{
+             color: darkmagenta;
+         }
+         h2{
+             color: black;
+         }
+         .example{
+             background-color: black;
+         }
+        .declare-2,.declare-3,.declare-4,.declare-5{
+           display: none;
+        }
+        .declare-1{
+            color: aqua;
+        }
+
+        }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      
+        body{
+            background-color:rgb(83, 238, 12) ;
+            
+        }
+        h1{
+            color: darkmagenta;
+        }
+        h2{
+            color: black;
+        }
+        .example{
+            background-color: black;
+        }
+        .declare-1,.declare-3,.declare-4,.declare-5{
+            display: none;
+         }
+         .declare-2{
+             color: aqua;
+         }
+
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+     
+        body{
+            background-color:rgb(243, 214, 47) ;
+            
+        }
+        h1{
+            color: darkmagenta;
+        }
+        h2{
+            color: black;
+        }
+        .example{
+            background-color: black;
+        }
+        .declare-1,.declare-2,.declare-4,.declare-5{
+            display: none;
+         }
+         .declare-3{
+             color: aqua;
+         }
+
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+
+        body{
+            background-color:rgb(53, 247, 221) ;
+            
+        }
+        h1{
+            color: darkmagenta;
+        }
+        h2{
+            color: black;
+        }
+        .example{
+            background-color: black;
+        }
+        .declare-1,.declare-2,.declare-3,.declare-5{
+            display: none;
+         }
+         .declare-4{
+             color: aqua;
+         }
+        
+
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+       
+        body{
+            background-color:rgb(12, 238, 125) ;
+            
+        }
+        h1{
+            color: darkmagenta;
+        }
+        h2{
+            color: black;
+        }
+        .example{
+            background-color: black;
+        }
+        .declare-1,.declare-2,.declare-3,.declare-4{
+            display: none;
+         }
+         .declare-5{
+             color: aqua;
+         }
+        
+        
+    }
